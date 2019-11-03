@@ -1,6 +1,6 @@
 {
   "name": "@supersheets/docmatter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Parse a Google Doc similar to gray-matter.",
   "main": "index.js",
   "scripts": {

@@ -8,6 +8,7 @@ describe('images', () => {
     let images = getInlineImageObjects(doc)
     expect(images.length).toBe(1)
     expect(images[0]).toMatchObject({
+      id: "kix.9tgu98jrxwha",
       uri: expect.stringMatching(/^https:\/\/(.*)\.googleusercontent\.com/),
       height: 220.875,
       width: 331.8968253968254,
