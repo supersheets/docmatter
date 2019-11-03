@@ -1,2 +1,2 @@
 # docmatter
-A gray-matter inspired parser for a Google Doc
+A [gray-matter](https://github.com/jonschlinkert/gray-matter) inspired parser for a Google Doc
