@@ -47,6 +47,13 @@ describe('content', () => {
       inlineObjects: doc.inlineObjects
     })
   })
+  it ('should return a doc with lists if doc has lists', async () => {
+    let doc = getTestDoc('lists.test.json')
+    let contentdoc = createContentDoc(doc)
+    expect(contentdoc).toMatchObject({
+      lists: doc.lists
+    })
+  })
   it ('should return as plain text', async () => {
     let doc = getTestDoc('normal.test.json')
     let contentdoc = createContentDoc(doc)
